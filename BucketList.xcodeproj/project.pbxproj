@@ -13,6 +13,8 @@
 		EEE2D5DF2C515CC400756B88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE2D5DE2C515CC400756B88 /* Preview Assets.xcassets */; };
 		EEE2D5E62C52C17D00756B88 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE2D5E52C52C17D00756B88 /* Location.swift */; };
 		EEE2D5E82C52DD6400756B88 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE2D5E72C52DD6400756B88 /* EditView.swift */; };
+		EEE2D5EC2C58042D00756B88 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE2D5EB2C58042D00756B88 /* Result.swift */; };
+		EEE61AEC2C5950B9006B4AA6 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE61AEB2C5950B9006B4AA6 /* ContentView-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		EEE2D5DE2C515CC400756B88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EEE2D5E52C52C17D00756B88 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		EEE2D5E72C52DD6400756B88 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		EEE2D5EB2C58042D00756B88 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		EEE61AEB2C5950B9006B4AA6 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				EEE2D5D72C515CC200756B88 /* BucketListApp.swift */,
 				EEE2D5D92C515CC200756B88 /* ContentView.swift */,
 				EEE2D5E72C52DD6400756B88 /* EditView.swift */,
+				EEE2D5EB2C58042D00756B88 /* Result.swift */,
+				EEE61AEB2C5950B9006B4AA6 /* ContentView-ViewModel.swift */,
 				EEE2D5E52C52C17D00756B88 /* Location.swift */,
 				EEE2D5DB2C515CC400756B88 /* Assets.xcassets */,
 				EEE2D5DD2C515CC400756B88 /* Preview Content */,
@@ -144,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEE2D5DA2C515CC200756B88 /* ContentView.swift in Sources */,
+				EEE61AEC2C5950B9006B4AA6 /* ContentView-ViewModel.swift in Sources */,
+				EEE2D5EC2C58042D00756B88 /* Result.swift in Sources */,
 				EEE2D5E62C52C17D00756B88 /* Location.swift in Sources */,
 				EEE2D5E82C52DD6400756B88 /* EditView.swift in Sources */,
 				EEE2D5D82C515CC200756B88 /* BucketListApp.swift in Sources */,
