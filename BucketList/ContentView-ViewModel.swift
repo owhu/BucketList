@@ -20,6 +20,8 @@ extension ContentView {
         
         let savePath = URL.documentsDirectory.appending(path: "SavedPlaces")
         
+        var mapViewStandard = true
+        
       
         init() {
             do {
