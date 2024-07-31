@@ -22,6 +22,8 @@ extension ContentView {
         
         var mapViewStandard = true
         
+        var showingAlert = false
+        
       
         init() {
             do {
@@ -68,6 +70,7 @@ extension ContentView {
                     if success {
                         self.isUnlocked = true
                     } else {
+                        self.showingAlert = true
                         // error
                     }
                 }
